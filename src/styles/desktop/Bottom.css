@@ -1,0 +1,36 @@
+.Bottom {
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    bottom: 2.5%;
+    left: 0;
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    /* background-color: teal; */
+    display: inline-flex;
+}
+ .Bottom a {
+    align-items: center;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: darkgray;
+ }
+ .Bottom i {
+     font-weight: 300px;
+     font-size: 15px;
+     text-align: center;
+     align-items: center;
+     /* color: var(--text); */
+     color: darkgray;
+ }
+ .Bottom p {
+     position: absolute;
+     align-items: center;
+     right: 0;
+     margin-right: 15px;
+     /* color: var(--text); */
+     color: darkgray;
+ }

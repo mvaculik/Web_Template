@@ -1,0 +1,46 @@
+
+h1 {
+    margin: 1%;
+    color: aliceblue;
+    font-family: 'Zen Loop', cursive;
+    font-size: 70px;
+}
+
+.header-top {
+    position: relative;
+    z-index: 100;
+
+    width: 100%;
+    /* background-color: #282c34; */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    /*Defines how flexbox items are ordered within a flexbox container.*/
+    flex-direction: row;
+    display: inline-flex;
+}
+#SignInBtn {
+    position: absolute;
+    right: 2%;
+    text-align: center;
+    padding: 8px 20px;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Zen Loop', cursive;
+    letter-spacing: 0.3px;
+    font-size: 17px;
+    color: var(--text);
+    background-color: white;
+
+    border-radius: 55px;
+    cursor: pointer;
+}
+#SignInBtn:hover {
+    background-color: rgb(180, 185, 200);
+}
