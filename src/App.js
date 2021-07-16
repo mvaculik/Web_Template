@@ -4,8 +4,10 @@ import Bottom from './pages/bottom';
 
 import Parallax from "./components/parallax";
 import { ParallaxProvider } from "react-scroll-parallax";
-import Img1 from "./img/bg2.png";
-import Down from "./img/down.png";
+import Img1 from "./img/background.png";
+import Down from "./img/nolimits.png";
+import Menu from "./img/menu.jpg"
+import ParallaxImg from "./img/background-px.jpg";
 
 function App() {
 
@@ -15,17 +17,22 @@ function App() {
         <Header/>
         <Bottom/>
         <div className="parallax">
-        <Parallax imgsrc={Img1} height="950px" opacity="0.5"></Parallax>
+        <Parallax imgsrc={ParallaxImg}>
+        </Parallax>
         </div>
-        <div className="test">
-          <img src={Down}/>
-        </div>
+          <div className="title"><img src={Down}/></div>
 
-        <div className="">
-
-        </div>
 
       </ParallaxProvider>
+        <div className="menu">
+          <h1>MENU</h1>
+          <div class="column">
+          <img src={Menu}/>
+          </div>
+         <div class="column">
+          <img src={Menu}/>
+          </div>
+        </div>
     </div>
   );
 }
