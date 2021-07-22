@@ -7,6 +7,7 @@
     /* background-color: rgba(0, 0, 0, 0.7); */
   }
   .gallery h1 {
+    font-weight: 300;
     padding: 10% 0 1% 2%;
     color: #f0f8ff;
     font-size: 70px;

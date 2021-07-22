@@ -13,6 +13,7 @@
     box-shadow: 0px -147px 64px 80px rgba(0,0,0,1); */
   }
   .menu h1 {
+    font-weight: 300;
     padding: 10% 0 1% 2%;
     color: #f0f8ff;
     font-size: 70px;

@@ -19,6 +19,7 @@ h1 {
     width: 100%;
 }
     .topNav p {
+        font-weight: 300;
         display: block;
         position: absolute;
         left: 0;
@@ -34,6 +35,7 @@ h1 {
         } 
     }
     .topNav a {
+        font-weight: 300;
         display: block;
         color: #f2f2f2;
         text-align: center;
@@ -63,6 +65,7 @@ h1 {
   }
   
   .nav a {
+      font-weight: 300;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -77,6 +80,7 @@ h1 {
 }
  
     .nav p {
+        font-weight: 300;
         display: block;
         position: absolute;
         left: 0;
