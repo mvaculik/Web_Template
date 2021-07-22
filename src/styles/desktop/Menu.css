@@ -1,0 +1,62 @@
+.menu {
+    width: 100%;
+    position: relative;
+    padding: 1%;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* background: url('./../../img/bg24.png');
+    background-size: cover; */
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+    /* -webkit-box-shadow: 0px -147px 64px 30px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -147px 64px 30px rgba(0,0,0,0.75);
+    box-shadow: 0px -147px 64px 80px rgba(0,0,0,1); */
+  }
+  .menu h1 {
+    padding: 10% 0 1% 2%;
+    color: #f0f8ff;
+    font-size: 70px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Zen Tokyo Zoo', cursive;
+  }
+  
+    /* Create two equal columns that floats next to each other */
+  .column-menu {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
+    /* background-color: #111; */
+  }
+  .column-menu img {
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0,0,0,1);
+    box-shadow: 0px 0px 11px -1px rgb(0, 0, 0);
+  }
+  .column-menu img:hover {
+    cursor: pointer;
+  }
+  
+  /* Clear floats after the columns */
+  .menu:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 750px) {
+    .column-menu {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .menu {
+      margin-top: 10%;
+    }
+    .menu h1 {
+      font-size: 50px;
+    }
+  }

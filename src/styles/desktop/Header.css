@@ -9,7 +9,7 @@ h1 {
 /* TOP - NavBarMenu */
 .topNav {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.897);
+    background-color: #000;
     position: relative;
     z-index: 100;
     justify-content: right;
@@ -27,6 +27,11 @@ h1 {
         padding: 24px 16px;
         text-decoration: none;
         font-size: 15px;
+    }
+    @media screen and (max-width: 450px) {
+        .topNav p {
+            font-size: 12px;
+        } 
     }
     .topNav a {
         display: block;
@@ -47,7 +52,7 @@ h1 {
 /* NavBarMenu */
 .nav {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.787);
+    background-color: rgba(0, 0, 0, 0.91);
     /* background-color: rgba(0, 0, 0, 0.55); */
     position: relative;
     z-index: 100;

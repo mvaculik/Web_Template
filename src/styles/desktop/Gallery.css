@@ -1,0 +1,60 @@
+.gallery {
+    width: 100%;
+    position: relative;
+    padding: 1%;
+    text-align: center;
+    z-index: 9;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+  }
+  .gallery h1 {
+    padding: 10% 0 1% 2%;
+    color: #f0f8ff;
+    font-size: 70px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Zen Tokyo Zoo', cursive;
+  }
+  
+    /* Create two equal columns that floats next to each other */
+  .column-gallery {
+    float: left;
+    width: 20%;
+    padding: 0.5%;
+    text-align: center;
+    justify-content: center;
+    /* background-color: #111; */
+  }
+  .column-gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  
+    transition: 0.4s ease-in-out;
+    backface-visibility: hidden;
+  }
+  .column-gallery img:hover {
+    cursor: pointer;
+    filter: grayscale(1);
+  }
+  
+  /* Clear floats after the columns */
+  .gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 750px) {
+    .column-gallery {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .gallery {
+      margin-top: 10%;
+    }
+    .gallery h1 {
+      font-size: 50px;
+    }
+  }
