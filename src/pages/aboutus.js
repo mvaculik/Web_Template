@@ -13,7 +13,7 @@ export default function aboutus() {
         <div className="aboutus">
         <h1>WELCOME TO NOLIMITS</h1>
         <br></br>
-        <p>Located in the trendy district of the centre Prague. Cocktail & music bar become a popular place for Czech and foreign guests due to its unforgettable atmosphere. A mature crowd flocks to the club seeking a sophisticated night out without the scene or exclusivity of a mega nightclub.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet tempor neque. Aenean hendrerit volutpat semper. Suspendisse eget lacinia leo, ut posuere velit. Donec pulvinar felis justo, ut placerat felis accumsan et. Donec vitae enim eleifend, auctor augue ut, feugiat orci. Donec pellentesque ac purus non laoreet.</p>
         <div className="row-aboutus">
           <div class="column-aboutus">
             <p style={{color: "#4f76ea"}}>FREE WIFI ZONE</p>

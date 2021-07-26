@@ -18,18 +18,20 @@ function header() {
       <div className="header">
         <div className="topNav">
           <p className="active"><i><GiPositionMarker/></i> Danziger Str. 47, 94036 Passau, Německo</p>
-          <a href="#about">F</a>
-          <a href="#about">IG</a>
-          <a href="#about">TT</a>
+          <section className="soc">
+          <a href="#about"> <i> <FaFacebookF/> </i> </a>
+          <a href="#about"> <i> <FaInstagram/> </i> </a>
+          <a href="#about"> <i> <SiTripadvisor/> </i> </a>
+          </section>
         </div>
         <div className="nav">
           <p className="active"><i><GiPositionMarker/></i> Danziger Str. 47, 94036 Passau, Německo</p>
 
-          <a href="#news">NOLIMITS</a>
-          <a href="#about">MENU</a>
-          <a href="#contact">EVENTS</a>
-          <a href="#about">GALLERY</a>
-          <a href="#about">CONTACTS</a>
+          <a href=".aboutus">NOLIMITS</a>
+          <a href="#menu">MENU</a>
+          <a href="#events">EVENTS</a>
+          <a href="#gallery">GALLERY</a>
+          <a href="#contacts">CONTACTS</a>
 
           <section className="soc">
           <a href="#about"> <i> <FaFacebookF/> </i> </a>
@@ -37,7 +39,7 @@ function header() {
           <a href="#about"> <i> <SiTripadvisor/> </i> </a>
           </section>
 
-          <a className="icon" onclick="myFunction()"><BsChevronCompactDown/></a>
+          <a className="icon" onclick="toggleMenu()"><BsChevronCompactDown/></a>
         </div>
 
       </div>

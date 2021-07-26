@@ -39,6 +39,16 @@
     width: 33.3%;
     padding: 0.5%;
   }
+  @media screen and (max-width: 1500px) {
+    .aboutus {
+      width: 100%;
+      padding: 0 2% 0 2%;
+      text-align: center;
+      position: relative;
+      margin-top: 10%;
+      z-index: 100;
+  }
+  }
   @media screen and (max-width: 1400px) {
     .aboutus {
       margin-top: 10%;
